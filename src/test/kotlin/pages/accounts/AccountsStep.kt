@@ -113,7 +113,7 @@ class AccountsStep : MainPlatformStep() {
         return this
     }
 
-    //TODO: what happening here?
+    //TODO: what is happening here?
     @Step("Name entry {nameAccount}")
     fun inputNameAccount(nameAccount: String): AccountsStep {
         val inputField = mainPlatformPage.accountsContainer.inputNameAccount

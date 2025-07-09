@@ -102,7 +102,7 @@ public class AccountsStep extends MainPlatformStep {
         return this;
     }
 
-    //TODO: what happening here?
+    //TODO: what is happening here?
     @Step("Name entry {nameAccount}")
     public AccountsStep inputNameAccount(String nameAccount) {
         SelenideElement inputField = mainPlatformPage.getAccountsContainer().getInputNameAccount()

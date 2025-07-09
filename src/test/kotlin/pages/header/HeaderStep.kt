@@ -7,7 +7,7 @@ import io.qameta.allure.Step
 
 class HeaderStep : MainPlatformStep() {
 
-    //TODO: why it is bad written test?
+    //TODO: why it is bad written step?
     @Step("Click on balance button")
     fun clickBalanceButton(): HeaderStep {
         mainPlatformPage.headerContainer.buttonBalance
